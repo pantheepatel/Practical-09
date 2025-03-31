@@ -1,0 +1,24 @@
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<main>
+    <div class="text-danger">Please click print text button to view text when page loads.</div>
+    <div class="m-3 fs-1" id="mainText"></div>
+    <div class="d-flex gap-2">
+        @* Place a button (PRINT TEXT) on the web page & on the click of the button “Hello World” should be displayed on a *@
+        <div class="btn btn-lg btn-outline-dark p-2" id="printText">PRINT TEXT</div>
+
+        @* Place another button (BOLD) on the web page & on the click of the button, the displayed string should be displayed in Bold *@
+        <div class="btn btn-lg btn-outline-dark p-2" id="boldText">BOLD</div>
+
+        @* Place another button (ITALIC) on the web page & on the click of the button, the displayed string should be displayed in Italic *@
+        <div class="btn btn-lg btn-outline-dark p-2" id="italicText">ITALIC</div>
+
+        @* Place another button (UNDERLINE) on the web page & on the click of the button, the displayed string should be displayed in Underline Style*@
+        <div class="btn btn-lg btn-outline-dark p-2" id="underLineText">UNDERLINE</div>
+
+        @* Place another button (RESET) on the web page & on the click of the button, the displayed string should be displayed in the normal default style*@
+        <div class="btn btn-lg btn-outline-dark p-2" id="resetValues">RESET</div>
+    </div>
+</main>
